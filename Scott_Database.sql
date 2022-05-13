@@ -57,7 +57,13 @@ INSERT INTO Courses(Course_Name, Course, Instructor_Id)
 VALUES ('System Analysis', 'CMSC 2279', 1), 
 ('C# Programming II', 'CMSC 2240', 2), 
 ('Client-Side Programming', 'CMSC 1228', 3), 
-('College Algebra', 'Math 1300', 4)
+('College Algebra', 'Math 1300', 4),
+('Statistics', 'CMSC 1400', 5), 
+('Speech', 'ENG 1320', 6), 
+('Writing', 'ENG 1200', 7), 
+('Structured Programming Language', 'CMSC 1500', 8),
+('Web Markup Language', 'CMSC 1280', 9), 
+('Java Programming', 'CMSC 2270', 10)
 GO
 
 INSERT INTO Students(Student_Firstname, Student_Lastname)
@@ -77,14 +83,28 @@ INSERT INTO Instructors(Instructor_Firstname, Instructor_Lastname)
 VALUES ('John', 'Wood'),
 ('Kevin', 'Gutierrez'),
 ('Dylan', 'Edwards'),
+('John', 'Green'),
+('Joe', 'Silman'),
+('Sophie', 'Henry'),
+('Bob', 'Schultz'),
+('Mary', 'Wenkels'),
+('Timothy', 'Wienstein'),
 ('Stephanie', 'Houdek')
+
 GO
 
 INSERT INTO Assignments(Assignment_Name, Course_Id, Due_Date)
 VALUES ('Group Essay', '1', '2022-05-4 11:59:59'),
 ('Algebraic Functions', '4', '2022-05-7 11:59:59'),
 ('Week 2 Assignment', '2', '2022-05-8 11:59:59'),
-('Index.HTML', '3', '2022-05-10 11:59:59')
+('Final', '4', '2022-05-10 11:59:59'),
+('Speech 1', '6', '2022-05-10 11:59:59'),
+('Essay 1', '7', '2022-05-10 11:59:59'),
+('Ch. 3 Assignment', '5', '2022-05-10 11:59:59'),
+('Python Assignment', '8', '2022-05-10 11:59:59'),
+('Final', '9', '2022-05-10 11:59:59'),
+('Final Project', '10', '2022-05-10 11:59:59')
+
 GO
 
 INSERT INTO Registration(Course_Id,Student_Id)
